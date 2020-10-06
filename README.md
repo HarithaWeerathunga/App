@@ -3,7 +3,11 @@
 
 ## SSD Project - OAuth 2.0 
 
+First Go into the App and run npm install. This will install all the node modules that are needed for the frontend
 
+Then Go to the backend folder from the terminal and then run npm install. This will install the node modules that are needed for the backend.
+
+After that open the app from the terminal and type npm start which will start the React Frontend. And then open the backend from the terminal and type npm run and the backend will be fired in the port 5000. Frontend will be running on port 3000.
 
 
 
