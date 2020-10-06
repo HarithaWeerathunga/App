@@ -1,26 +1,41 @@
 .navbar{
+    height: 75px;
     background-color: black;
-    height: 80px;
-    display: flex;
     justify-content: start;
+    display: flex;
+}
+
+span{
+    margin-left: 15px;
 }
 
 .menu-bars{
-    margin-left: 2rem;
-    font-size: 2rem;
+    font-size: 3rem;
     background: none;
+    margin-left: 3rem;
 }
+
+.nav-text {
+
+    display: flex;
+    align-items: center;
+    padding: 7px 0px 7px 15px;
+    list-style: none;
+    height: 55px;
+    justify-content: start;
+}
+
 
 .nav-menu{
     background-color: black;
-    width: 250px;
-    height: 100vh;
+    width: 245px;
+    height: 95vh;
     display: flex;
     justify-content: center;
     position: fixed;
     top: 0;
     left: -100%;
-    transition: 850ms;
+    transition: 840ms;
 
 }
 
@@ -29,15 +44,7 @@
     transition: 350ms;
 }
 
-.nav-text {
 
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    padding: 8px 0px 8px 16px;
-    list-style: none;
-    height: 60px;
-}
 
 .nav-text a{
     text-decoration: none;
@@ -68,6 +75,3 @@
     align-items: center;
 }
 
-span{
-    margin-left: 16px;
-}
