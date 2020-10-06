@@ -98,6 +98,7 @@ app.get("/", (req, res) => {
     }
 });
 
+// API to upload the fiels into the drive
 app.post("/upload", (req, res) => {
     upload(req, res, function (err) {
         if (err) {
@@ -136,12 +137,13 @@ app.post("/upload", (req, res) => {
 
 
 
-
+//log out of the session
 app.get('/logout',(req,res) => {
     authorized = false
     res.redirect('/')
 })
 
+// call back from Google with the token
 app.get("/google/callback", function (req, res) {
     const code = req.query.code;
     if (code) {
